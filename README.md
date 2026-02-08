@@ -47,4 +47,18 @@ Place `creditcard.csv` in the project root before running.
 pip install -r requirements.txt
 python run_experiment.py
 
+## 🔹 Output
+
+Quantum anomaly score scatter plot
+
+ROC curve (Quantum model)
+
+ROC comparison with Isolation Forest
+
+## 🔹 Disclaimer
+
+This project uses quantum simulation, which is standard practice in
+current quantum machine learning research.
+No claim of quantum advantage is made.
+
 
