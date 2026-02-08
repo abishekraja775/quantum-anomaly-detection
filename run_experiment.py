@@ -90,4 +90,3 @@ plt.legend()
 plt.show()
 
 print("Classical Isolation Forest AUC:", auc_c)
-
