@@ -19,6 +19,7 @@ compared against a classical Isolation Forest baseline.
 
 ## 🔹 Project Structure
 
+```
 quantum_anomaly_detection/
 ├── run_experiment.py
 ├── quantum_model.py
@@ -26,6 +27,7 @@ quantum_anomaly_detection/
 ├── preprocess.py
 ├── requirements.txt
 └── README.md
+```
 
 
 ---
@@ -51,10 +53,11 @@ pip install -r requirements.txt
 ```
 Run the experiment:
 
-``` python run_experiment.py
+```
+ python run_experiment.py
 ```
 
-🔹 Output
+## 🔹 Output
 
 Running the experiment generates the following outputs:
 
@@ -66,15 +69,23 @@ ROC comparison between quantum model and Isolation Forest baseline
 
 The plots appear sequentially during execution.
 
-🔹 Disclaimer
+---
+
+## 🔹 Disclaimer
 
 This project uses quantum circuit simulation, which is standard practice
 in current quantum machine learning research due to limited access to
 large-scale quantum hardware.
 
 No claim of quantum advantage is made.
+
 The goal is to explore the feasibility of quantum representations for
 unsupervised anomaly detection.
+
+
+
+
+---
 
 
 
