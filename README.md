@@ -29,6 +29,9 @@ quantum_anomaly_detection/
 
 ---
 
+
+---
+
 ## 🔹 Dataset
 
 The **Credit Card Fraud Dataset** is not included in this repository due to
@@ -43,8 +46,9 @@ After downloading, place `creditcard.csv` in the project root directory.
 
 ## 🔹 How to Run
 
-** Install dependencies:
+Install dependencies:
 
+```bash
 pip install -r requirements.txt
 
 Run the experiment:
