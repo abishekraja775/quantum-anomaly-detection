@@ -43,13 +43,13 @@ After downloading, place `creditcard.csv` in the project root directory.
 
 ## 🔹 How to Run
 
-Install dependencies:
+** Install dependencies:
 
 pip install -r requirements.txt
 
 Run the experiment:
 
-python run_experiment.py
+python run_experiment.py **
 
 ---
 
