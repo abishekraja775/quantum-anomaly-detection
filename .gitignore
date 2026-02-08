@@ -1,6 +1,13 @@
-.venv/
+# Python cache
 __pycache__/
 *.pyc
+
+# Virtual environments
+.venv/
+
+# Dataset (do not upload)
 creditcard.csv
+
+# OS junk
 .DS_Store
 
