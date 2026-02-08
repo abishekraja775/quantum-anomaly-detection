@@ -27,8 +27,6 @@ quantum_anomaly_detection/
 ├── requirements.txt
 └── README.md
 
----
-
 
 ---
 
@@ -48,43 +46,35 @@ After downloading, place `creditcard.csv` in the project root directory.
 
 Install dependencies:
 
-```bash
+```
 pip install -r requirements.txt
-
+```
 Run the experiment:
 
-python run_experiment.py **
+``` python run_experiment.py
+```
 
----
-
-## 🔹 Output
+🔹 Output
 
 Running the experiment generates the following outputs:
 
-- Scatter plot of **quantum anomaly scores** for normal vs fraudulent samples  
-- ROC curve showing the **quantum model performance (AUC)**  
-- ROC comparison between **quantum model and Isolation Forest baseline**
+Scatter plot of quantum anomaly scores for normal vs fraudulent samples
 
-These plots appear sequentially during execution.
+ROC curve showing the quantum model performance (AUC)
 
----
+ROC comparison between quantum model and Isolation Forest baseline
 
-## 🔹 Disclaimer
+The plots appear sequentially during execution.
 
-This project uses **quantum circuit simulation**, which is standard practice
+🔹 Disclaimer
+
+This project uses quantum circuit simulation, which is standard practice
 in current quantum machine learning research due to limited access to
 large-scale quantum hardware.
 
-No claim of quantum advantage is made.  
-The goal is to explore the feasibility of **quantum representations for
-unsupervised anomaly detection**.
-
----
-
-## 🔹 Acknowledgement
-
-This project was developed as part of a **Quantum Computing Hackathon**
-focused on Quantum Intelligence and Quantum Machine Learning.
+No claim of quantum advantage is made.
+The goal is to explore the feasibility of quantum representations for
+unsupervised anomaly detection.
 
 
 
