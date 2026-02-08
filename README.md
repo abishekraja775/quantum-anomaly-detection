@@ -1,9 +1,9 @@
-# Quantum Anomaly Detection (Quantum ML)
+# Quantum Anomaly Detection (Quantum Machine Learning)
 
 This project implements an **unsupervised quantum anomaly detection system**
 using a **hybrid quantum–classical variational model**.
 
-The model is evaluated on a **real-world credit card fraud dataset** and
+The system is evaluated on a **real-world credit card fraud dataset** and
 compared against a classical Isolation Forest baseline.
 
 ---
@@ -12,7 +12,7 @@ compared against a classical Isolation Forest baseline.
 - Variational Quantum Circuit (Qiskit)
 - Unsupervised anomaly detection
 - Real-world financial dataset
-- ROC–AUC evaluation
+- ROC–AUC based evaluation
 - Classical baseline comparison
 
 ---
@@ -20,7 +20,6 @@ compared against a classical Isolation Forest baseline.
 ## 🔹 Project Structure
 
 quantum_anomaly_detection/
-│
 ├── run_experiment.py
 ├── quantum_model.py
 ├── data_loader.py
@@ -28,37 +27,60 @@ quantum_anomaly_detection/
 ├── requirements.txt
 └── README.md
 
-
 ---
 
 ## 🔹 Dataset
-The **Credit Card Fraud Dataset** is not included due to licensing.
 
-Download from:
+The **Credit Card Fraud Dataset** is not included in this repository due to
+licensing restrictions.
+
+Download it from:
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-Place `creditcard.csv` in the project root before running.
+After downloading, place `creditcard.csv` in the project root directory.
 
 ---
 
 ## 🔹 How to Run
 
-```bash
+Install dependencies:
+
 pip install -r requirements.txt
+
+Run the experiment:
+
 python run_experiment.py
+
+---
 
 ## 🔹 Output
 
-Quantum anomaly score scatter plot
+Running the experiment generates the following outputs:
 
-ROC curve (Quantum model)
+- Scatter plot of **quantum anomaly scores** for normal vs fraudulent samples  
+- ROC curve showing the **quantum model performance (AUC)**  
+- ROC comparison between **quantum model and Isolation Forest baseline**
 
-ROC comparison with Isolation Forest
+These plots appear sequentially during execution.
+
+---
 
 ## 🔹 Disclaimer
 
-This project uses quantum simulation, which is standard practice in
-current quantum machine learning research.
-No claim of quantum advantage is made.
+This project uses **quantum circuit simulation**, which is standard practice
+in current quantum machine learning research due to limited access to
+large-scale quantum hardware.
+
+No claim of quantum advantage is made.  
+The goal is to explore the feasibility of **quantum representations for
+unsupervised anomaly detection**.
+
+---
+
+## 🔹 Acknowledgement
+
+This project was developed as part of a **Quantum Computing Hackathon**
+focused on Quantum Intelligence and Quantum Machine Learning.
+
 
 
